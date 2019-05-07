@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class QuizEnd extends Component {
     constructor (props) {
         super(props);
-        this.handleResetHandler = this.handleResetHandler.bind(this);
+        this.handleResetClick = this.handleResetClick.bind(this);
     }
 
     handleResetClick () {

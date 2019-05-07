@@ -6,13 +6,11 @@ import QuizQuestionButton from './QuizQuestionButton';
 class QuizQuestion extends Component {
     constructor (props) {
         super(props);
-        this.state = {};
         this.handleClick = this.handleClick.bind(this);
     }
 
     handleClick (buttonText) {
         if(this.props.quiz_question.answer === buttonText) {
-            console.log('answer')
             this.props.showNextQuestionHandler(buttonText);
         }
     }

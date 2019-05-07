@@ -7,7 +7,7 @@ class QuizEnd extends Component {
     }
 
     handleResetClick () {
-        this.props.handleResetHandler();
+        this.props.resetClickHandler ();
     }
 
     render() {

@@ -3,11 +3,10 @@ import React, { Component } from 'react'
 class QuizEnd extends Component {
     constructor (props) {
         super(props);
-        this.handleResetClick = this.handleResetClick.bind(this);
+        this.handleResetHandler = this.handleResetHandler.bind(this);
     }
 
-    handleResetClick (e) {
-        e.preventDefault();
+    handleResetClick () {
         this.props.handleResetHandler();
     }
 
